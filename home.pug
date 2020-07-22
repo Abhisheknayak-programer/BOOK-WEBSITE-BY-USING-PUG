@@ -1,0 +1,48 @@
+extends base.pug
+
+block style
+    style
+        include  ..\static\style.css
+
+block content
+        section#intro
+            h1 Welcome To Our Online Book Store
+            h3 Read Books Online
+        
+        section#book
+            h1 Our Best Book Collection
+        
+        
+        div.book2
+            div.card#book1
+                p Collection 1 
+            div.card#book2
+                p Collection 2
+            div.card#book3
+                p Collection 3
+            div.card#book4
+                p Collection 4
+            div.card#book5
+                p Collection 5      
+            div.card#book6
+                p Collection 6
+            
+        div.access
+            h1 Sign Up Now To Access Our Collection
+            button.btn #[a(href="#") Sign Up]
+
+
+
+
+        section#sponcer
+            h1 Our Sponcers
+        
+        div.img-class
+            img(src="/static/s1.png", alt="ellle")
+            img(src="/static/s2.svg", alt="ellle")
+            img(src="/static/s3.jpg", alt="ellle")
+            img(src="/static/s6.png", alt="ellle")
+            img(src="/static/s5.png", alt="ellle")
+            img(src="/static/s4.png", alt="ellle")
+
+
