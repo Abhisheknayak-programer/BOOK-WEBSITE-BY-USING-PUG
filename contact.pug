@@ -1,0 +1,19 @@
+extends base.pug
+
+block style
+    style
+        include  ..\static\style.css
+        include  ..\static\stylecontact.css
+
+block content 
+    h3 CONTACT US
+    section#form
+        form(action="/")
+            input.a#one(type="text" placeholder="Enter Your Name")
+            input.a#two(type="text" placeholder="Enter Your Age")
+            input.a#three(type="text" placeholder="Enter Your User Id")
+            textarea.a#textarea(name="reason", cols="30", rows="10" placeholder="Enter Your Reason")
+        
+    section#btn
+        button.submitbtn #[a(href="/contact2" method="POST") Submit]
+            
