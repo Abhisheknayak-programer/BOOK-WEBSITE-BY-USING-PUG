@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(#6fb1f8,rgb(240, 163, 163));
+    height: 100vh;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#services{
+    width: 50%;
+    border-radius: 30px;
+    background: linear-gradient(#344,#874);
+    /* background: linear-gradient(rgb(235, 149, 235),rgb(124, 253, 84)); */
+    box-shadow: 2px 2px 10px black,-2px -2px 10px black;
+    height: 35%;
+    margin: auto;
+    text-align: center;
+    transition-duration: 5s;
+    position: relative;
+    transition-property: transform;
+    top: 1.5%;
+    cursor: pointer;
+    color: white;
+}
+#services:hover{
+    transform: scale(1.2);
+    background: linear-gradient(#344,#874);
+    transform: rotate(360deg);
+    transform-style: preserve-3d;
+}
+#head{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#general{
+    width: 50%;
+    border-radius: 30px;
+    background: linear-gradient(#344,#874);
+    box-shadow: 2px 2px 10px black,-2px -2px 10px black;
+    height: 65%;
+    margin: auto;
+    text-align: center;
+    transition-duration: 5s;
+    position: relative;
+    transition-property: transform;
+    top: 1.5%;
+    cursor: pointer;
+    color: white;
+}
+#general:hover{
+    transform: scale(1.2);
+    background: linear-gradient(#344,#874);
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+}
+
+#payment{
+    width: 50%;
+    border-radius: 30px;
+    background: linear-gradient(#344,#874);
+    box-shadow: 2px 2px 10px black,-2px -2px 10px black;
+    height: 55%;
+    margin: auto;
+    text-align: center;
+    transition-duration: 5s;
+    position: relative;
+    transition-property: transform;
+    top: 1.5%;
+    cursor: pointer;
+    color: white;
+}
+#payment:hover{
+    transform: scale(1.2);
+    transform: rotateX(360deg);
+    transform: skew(20deg);
+    transform-style: preserve-3d;
+    background: linear-gradient(#344,#874);
+}
+
+#footer{
+    position: relative;
+    top: 20px;
+}

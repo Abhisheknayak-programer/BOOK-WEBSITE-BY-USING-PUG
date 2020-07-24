@@ -1,0 +1,61 @@
+h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#form{
+   background: url("/static/bg2.jpg")no-repeat center center/cover;
+   height: 54vh;
+   
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+.a{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    outline:none;
+    width: 300px;
+    text-align: center;
+}
+
+#one{
+    position: relative;
+    top: 20px;
+}
+#two{
+    position: relative;
+    top: 30px;
+}
+#three{
+    position: relative;
+    top: 40px;
+}
+#textarea{
+    position: relative;
+    top: 54px;
+    font-size: 20px;
+    height:170px;
+}
+
+#btn{
+   background: url("/static/bg2.jpg");
+    opacity: 0.7;
+}
+.submitbtn{
+   text-align: center; 
+   padding: 10px;
+   outline: none;
+   background-color: rgb(0, 0, 0);
+   border-radius: 20%;
+    position: relative;
+    left: 48%;
+    top: 50%;
+    z-index: 2;
+}
+.submitbtn a{
+    text-decoration: none;
+    color: white;  
+}

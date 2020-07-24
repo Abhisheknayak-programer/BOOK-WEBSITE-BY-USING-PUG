@@ -1,0 +1,39 @@
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px grey;
+    text-decoration: underline;
+    position: relative;
+    top: -12px;
+}
+
+#about{
+    border: 2px solid black;
+    background: black;
+    color: white;
+    width: 400px;
+    margin: auto;
+    height: 600px;
+    border-radius: 8%;
+    box-shadow: -5px 10px 10px blue, -3px -10px 10px blue,5px 10px 10px blue,5px 10px 100px rgba(79, 15, 199, 0.726);
+}
+
+img{
+    height: 400px;
+    width: 250px;
+    border-radius: 20%;
+    position: relative;
+    left: 20%;
+}
+p{
+    margin: auto;
+    width: 200px;
+}
+body{
+    background: black;
+}
+#footer{
+    margin-top: 10px;
+}
